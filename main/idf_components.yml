@@ -1,0 +1,4 @@
+dependencies:
+  espressif/led_strip: "^3.0.1"   # RMT/SPI backends, RGBW + runtime color order
+  # If you want a friendlier C++ BLE wrapper over NimBLE, uncomment:
+  # h2zero/esp-nimble-cpp: "^2.0.1"
