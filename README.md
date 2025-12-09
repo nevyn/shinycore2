@@ -4,7 +4,11 @@ Shinycore2 is the successor to [shinercore](https://github.com/nevyn/shinercore)
 
 Shinycore is an open source firmware for ESP32 controllers to make pretty animations on addressable RGB LED strips (such as NeoPixel strips). It's hard-coded to work well with M5Stack's M5AtomS3 modules, which are very small and cheap and work really great for the use case, but it shouldn't be too much of a pain to port it to another ESP32 platform.
 
-The current feature set includes the ability to configure the animations over Bluetooth with an iOS app. The goal is to at beat syncing (having the animations blink to the beat of nearby music using a microphone peripheral); and to create a mesh network to sync animations with your friends, so you all pulse in time and with each others' colors.
+The current feature set includes the ability to configure the animations over Bluetooth with an iOS app, and play them back over the grove connector to whatever LED strip is connected there.
+
+The goal is to eventually have:
+* beat syncing (having the animations blink to the beat of nearby music using a microphone peripheral); 
+* and to create a mesh network to sync animations with your friends, so you all pulse in time and with each others' colors.
 
 **Shinycore2 is just freshly started. It doesn't work yet. Use [shinercore](https://github.com/nevyn/shinercore) meanwhile.**
 
